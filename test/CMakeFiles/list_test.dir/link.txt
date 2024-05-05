@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wall -Wextra -Werror -O0 -g -fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-calls CMakeFiles/list_test.dir/list_test.cpp.o -o list_test   -L/home/yunjian/LockTest/build/lib  -Wl,-rpath,/home/yunjian/LockTest/build/lib ../lib/liblock.a -lgtest -lgtest_main -lpthread
